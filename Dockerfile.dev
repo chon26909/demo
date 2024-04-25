@@ -13,4 +13,4 @@ COPY .env.dev .
 
 EXPOSE 4000
 
-CMD node ./dist/app.js
+CMD NODE_ENV=dev node ./dist/app.js
